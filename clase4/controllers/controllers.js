@@ -59,7 +59,7 @@ const deleteAllVapeController = async (req, res) => {
         return res.send(data)
     } catch (error) {
         return res.send('error al actualizar un vape  (deleteAllVapeController)')
-    }-4461
+    }
 }
 
 module.exports = {

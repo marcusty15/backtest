@@ -1,6 +1,8 @@
 
 const express = require('express')
 
+const config = require('./DB/dbConfig');
+
 const router = require('./routes/vapesRoutes')
 
 const app = express()
