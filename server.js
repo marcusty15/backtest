@@ -1,13 +1,11 @@
 
 const express = require('express')
 
-const config = require('./DB/dbConfig');
-
 const router = require('./routes/vapesRoutes')
 
 const app = express()
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 8000;
 
 app.use(express.json())
 
