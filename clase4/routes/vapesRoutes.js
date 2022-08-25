@@ -1,4 +1,3 @@
-const {allvapes} = require('../models/users');
 const express = require('express')
 const {allvapescontrollers, vapebyIDcontroller,
     createVapeController,
