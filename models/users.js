@@ -1,7 +1,7 @@
 const { request } = require("../DB/request");
 
 module.exports.allvapes = async () => {
-  const data = await request("SELECT * FROM libros");
+  const data = await request("SELECT * FROM vapes");
 
   return data;
 };
