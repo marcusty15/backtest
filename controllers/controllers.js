@@ -5,6 +5,7 @@ const allvapescontrollers = async (req, res) =>{
         const data = await allvapes()
         return res.send(data)
     } catch (error) {
+        console.log(error)
         return res.send('error al obtener todos los vapes (allvapescontrolers)')
     }
 }
