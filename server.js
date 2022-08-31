@@ -12,8 +12,8 @@ const port = process.env.PORT || 8000;
 app.use(express.json())
 
 app.use('/vapes', router)
-app.use('/signup', router)
-app.use('/signin', router)
+app.use('/signup', signupRoutes)
+app.use('/signin', signinRoutes)
 
 app.listen(port, () => {
     console.log(`Servidor levantado en el puerto ${port}`)

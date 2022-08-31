@@ -1,4 +1,4 @@
-const signinLector = require('./../models/signin');
+const {signinLector} = require('./../models/signin');
 
 module.exports.signinLectorController = async (req, res) => {
     const {email, password} = req.body

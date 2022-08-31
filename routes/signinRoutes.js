@@ -1,6 +1,6 @@
 const express = require('express')
 
-const signinLectorController = require('./../controllers/signin');
+const {signinLectorController} = require('./../controllers/signin');
 
 const router = express.Router()
 

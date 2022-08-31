@@ -1,4 +1,4 @@
-const request = require('./../DB/request');
+const {request} = require('./../DB/request');
 
 module.exports.signinLector = async (user, password) => {
     const data = await request(`
