@@ -1,6 +1,9 @@
 const { signupLector, allusers} = require('./../models/signup');
 
+
+
 module.exports.signupLectorController = async (req, res) => {
+    
     const {email, password} = req.body
 try {
     const user = await signupLector(email,password)
